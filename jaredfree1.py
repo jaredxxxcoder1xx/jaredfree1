@@ -112,6 +112,7 @@ device = {
 
 def clear():
 	os.system('clear')
+	print\033[1;32mSUCCESSFULY LOGGED PLEASE WAIT FOR A SEC....
 	print(logo)
 def linex():
 	print(47*'_')
@@ -123,7 +124,7 @@ cps=[]
 #print(logo)
 ## = input(' Put Your Network Name: ')
 logo =f"""\x1b[1;97m
-\033[1;32m ░░░░░██╗░█████╗░██████╗░███████╗██████╗░
+\033[1;32m░░░░░██╗░█████╗░██████╗░███████╗██████╗░
 \033[1;32m░░░░░██║██╔══██╗██╔══██╗██╔════╝██╔══██╗
 \033[1;32m░░░░░██║███████║██████╔╝█████╗░░██║░░██║
 \033[1;32m██╗░░██║██╔══██║██╔══██╗██╔══╝░░██║░░██║
@@ -136,7 +137,7 @@ logo =f"""\x1b[1;97m
   
 ------------------------------------------------------------------------
  AUTHOR      : JARED
- VERSION      : 0.01
+ VERSION      : 0.02
  FACEBOOK   : JARED/ AURORA SVNEICH
  STATUS         : FREE
 ------------------------------------------------------------------------"""
@@ -704,8 +705,8 @@ def ffb1(ids,names,passlist):
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\033[0;31m [DENV-LOCK] %s | %s'%(ids,pas))
-                                        open(f'/sdcard/DENV-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[0;31m [JARED-LOCK] %s | %s'%(ids,pas))
+                                        open(f'/sdcard/JARED-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
